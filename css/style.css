@@ -1,0 +1,68 @@
+body{
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;   
+    list-style-position: inside;
+    background-image:url('/img/back.png');
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+.duzen{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.duzen article div ol h3{
+    font-size: 40px;
+    font-style:italic;
+}
+.yazı{    
+    position: relative;
+}
+.yazı h1{
+    color: blue;
+    font-style:normal;
+    font-size: 40px;
+}
+.yazı h3{
+    font-style:italic;
+    color: black;
+    font-size: 32px;
+}
+.yazı p{
+    color: black;
+    font-size: 24px;
+}
+.yazı ol{
+    color: black;
+    font-size: 24px;
+}
+.yazı ul{
+    color: gray;
+    font-size: 28px;
+}
+.secenekler{
+    list-style: none;
+    display: block;    
+}
+.secenekler li{
+    display: inline;
+    margin: 10px;
+    position: relative;
+
+}
+.resimler{
+    height: 10em;
+    margin: 0.5em;
+}
+.footer{
+    position: absolute;
+    bottom: auto;
+    right: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+}
+.footer div{
+font-size: large;
+}
